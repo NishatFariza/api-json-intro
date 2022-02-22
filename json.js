@@ -11,4 +11,6 @@ const shop ={
     isExpensive : true
 }
 const stringified =JSON.stringify(shop);
-console.log(stringified)
+console.log(stringified);
+const unWrapJson =JSON.parse(stringified);
+console.log(unWrapJson)
